@@ -1,13 +1,11 @@
 import React from 'react';
 import * as stylex from '@stylexjs/stylex';
 
-interface Props {
-  style?: stylex.StyleXStyles;
-}
+interface Props {}
 
 const styles = stylex.create({});
 
-const Library: React.FC<Props> = ({ style }) => {
+const Library: React.FC<Props> = ({}) => {
   return <div>Library</div>;
 };
 
